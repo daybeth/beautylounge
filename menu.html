@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="images/logo-icon.ico" type="image/x-icon">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+	<title>Beauty Lounge by Gilena</title>
+	<link rel="stylesheet" type="text/css" href='style.css'>
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" ng-click="isNavCollapsed = !isNavCollapsed">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div id="nav" class="collapse navbar-collapse" uib-collapse="isNavCollapsed">
+			<ul class="nav navbar-nav">
+			 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENU</a>
+					<ul class="dropdown-menu" aria-labelledby="simple-dropdown">
+				        <li role="menuitem"><a class="dropdown-item" href="facials.html">FACIAL</a></li>
+				        <li role="menuitem"><a class="dropdown-item" href="beautyBar.html">BEAUTY BAR</a></li>
+				        <li role="menuitem"><a class="dropdown-item" href="body.html">BODY</a></li>
+				        <li role="menuitem"><a class="dropdown-item" href="wax.html">WAX</a></li>
+				        <li role="menuitem"><a class="dropdown-item"href="packages.html">PACKAGES</a></li>
+			       </ul>
+ 			  </li>
+		      <li  class="nav-item">
+		        <a href="gallery.html">GALLERY</a>
+		      </li>
+		      <li class="nav-item">
+		        <a  href="contact.html">CONTACT</a>
+		      </li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="vagaro" style="width:250px; padding:0; border:0; margin:0 auto; text-align:center; font-size:14px; color:#AAA;"><style>.vagaro a {font-size:14px; color:#AAA; text-decoration:none;}</style><a href="https://sales.vagaro.com/">Powered by Vagaro</a>&nbsp;<a href="https://sales.vagaro.com/salon-software">Salon Software</a>,&nbsp;<a href="https://sales.vagaro.com/spa-software">Spa Software</a>&nbsp;&amp;&nbsp;<a href="https://sales.vagaro.com/fitness-software">Fitness Software</a><script type="text/javascript" src="https://www.vagaro.com/resources/WidgetPopupLoader/OZqtDpGqEIPqFJ4cQ3qoCZ0m9cayj3ewE3cT5vUOi9oRC9cRCJ2ocx6S6fgO79WOi9QP6ven732Rc1cP634n6Hiocx2OifWoi9kS6PioifeP79SvkRONCRCP5pamiRMniZSNCRUsbwIsiBEokPUnDxUrjpUxhvkNDJWpW?v=xVX5tgNnc7GKb2LKitOyv4UXiX0LBk1OMyARMA9zkcHW#"></script>
+	</div>
+	<img id="nogallery" class="brand-name" src="images/logo1.png" alt="Beauty Bar Menu">
+
+
+
+	<footer>
+	<a class="contact-link inline" target="_blank" href="https://www.instagram.com/beautyloungebygilena/">
+			<img src="images/instagram-grey.gif" class="contact-icon" alt="Instagram Icon">
+		</a> 
+		<a class="contact-link inline" target="_blank" href="https://www.facebook.com/beautyloungebygilena/">
+			<img src="images/facebook-grey.gif" class="contact-icon" alt="Facebook Icon">
+		</a>
+		<p>&copy; 2017 | <a href="privacyPolicy.html">Privacy Policy</a></p>
+	</footer>
+
+</body>
+</html>
+<script>
+$("#nav .navbar-nav a").on("click", function(){
+   $("#nav .navbar-nav").find(".active").removeClass("active");
+   $(this).parent("li").addClass("active");
+});
+</script>

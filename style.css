@@ -1,0 +1,531 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+  }
+body{
+      background: url("images/IMG_1764.jpg") no-repeat center center fixed; 
+       background-size: cover;
+  }
+  h1{
+    font-size: 3em;
+  }
+/*********NAV BAR*****/
+.navbar {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  height: 55px;
+}
+.navbar-nav a{
+}
+.navbar li{
+  width: 147px;
+  text-align: center;
+}
+.dropdown-menu{
+  min-width: 110px !important;
+  padding: 0px;
+}
+.dropdown-menu a{
+  margin-right: 0px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.navbar-collapse.in.collapse{
+  background-color: #f9f9f9;
+  box-shadow: 2px 3px 0px 2px rgba(0,0,0,.20);
+  margin-top: 5px;
+  width: 25%;
+}
+.navbar a:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+  border-bottom: 4px solid #b5b5b5;
+}
+/********* END OF NAV BAR*****/
+
+/*******FOOTER*********/
+footer{
+  text-align: center;
+  margin-top:  2%;
+  margin-bottom: 2%;
+  font-weight: bold;
+  color: grey;
+}
+footer p{
+  margin-top: 0.5%;
+  display: inline-block;
+}
+footer a{
+  color: grey;
+}
+/*******END OF FOOTER*********/
+
+/****LOGO AND VAGARO LINK***/
+.logo-div{
+  margin:  5% 0 0 15% ;
+  display: inline-block; 
+  width: 100%;
+  position: relative;
+}
+.brand-name{
+  width:70%;
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 3s infinite;
+}
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+.vagaro{
+  display: inline-block;
+  
+}
+.vagaro-container.vagaro-popup-widget img{
+  position: absolute;
+  right: 5%;
+  width: 15%;
+}
+/**** END OF LOGO AND VAGARO LINK***/
+
+/***** GREY CONTAINERS****/
+.about-container{
+  background-color: #7d7d7d;
+  width: 90%;
+  color: white;
+  padding: 2% 0%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.title-container{
+  font-family: "Kohinoor Devanagari";
+  background-color:  #b5b5b5;
+  color: #7d7d7d;
+  text-align: center;
+  padding: 2% 0% 2% 0%;
+  font-weight: bold;
+}
+/***** END OF GREY CONTAINERS****/
+#brand-name-gallery{
+  padding: 0px;
+  margin: 2%;
+}
+#privacyPolicy-content{
+  padding: 2% 5%;
+  text-align: left;
+}
+/******ABOUT PAGE*****/
+.about-content{
+  padding: 5px 0px;
+  padding: 3% 7% 0% 7%;
+  font-size: 1.em;
+}
+#profile{
+  margin-top: 5%;
+}
+#vision span{
+  font-style: italic;
+}
+.gilena-pic{
+  width: 50%;
+  border-radius: 50%;
+  border:solid 2px white;
+  margin: 5% 25%; 
+}
+/******END OF ABOUT PAGE*****/
+
+/******GALLERY PAGE*****/
+.gallery-container{
+  /*margin-left: 1%;*/
+}
+.tab-content{
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 3%;
+}
+.tab-content h3{
+  margin-top: 0;
+  padding-top: 2%;
+
+}
+.tab-title li{
+  font-weight: bold;
+  font-size: 1.1em;
+  background-color: transparent;
+}
+.tab-title a{
+  color: grey
+}
+.tab-title a:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+.carousel{
+  width: 95%;
+  margin-left: 3%;
+  /*height: 300px*/
+}
+/******END OF GALLERY PAGE*****/
+
+/******CONTACT PAGE*****/
+#contact-content{
+  padding: 2%;
+}
+#map{
+  margin:2%;
+  width: 95%;
+  height: 350px;
+  display: inline-block;
+}
+.contact-link{
+  margin-bottom: 2%;
+}
+.contact-icon{
+  width: 30px; 
+  height: 30px;
+  margin-right: 10px;
+}
+.contact-info{
+  padding: 5% 8%;
+}
+.contact-text{
+  display: inline;
+  color: white;
+}
+.city{
+  margin-left: 14%;
+}
+hr{
+  width: 90%;
+}
+.inline{
+    display: inline;
+  }
+/******END OF CONTACT PAGE*****/
+
+/****TABLES***/
+.table{
+  padding: 0 3%;
+  /*font-size: 1.5em;*/
+}
+.sub-title{
+  padding: 2% 3% 0;
+  border:none;
+}
+table td{
+  width: 25%;
+}
+table{
+  width: 95%;
+  margin-bottom: 3%;
+}
+table .left-border{
+  border-left: 2px solid white;
+  padding-left: 2%;
+  width: 70%;
+}
+.h4, h4{
+  border-top:  1px solid white;
+  padding-top: 2%;
+}
+
+.h4, h4:first-child{
+  border: none;
+}
+.packages td{
+  width: 55%;
+}
+/******SERVICES PAGES*****/
+.service-content{
+  margin-top: 2% auto;
+}
+.pic img{
+  width: 100%;
+  height: 150px;
+}
+.pic{
+  transition: all 200ms ease-in-out;
+  opacity: 0;
+  position: relative;
+  margin-top: 5%;
+}
+.fadein {
+  animation-name: fadein;
+  animation-fill-mode: forwards;
+  animation-duration: 700ms;
+  animation-timing-function: ease-in-out;
+}
+#pic2 {
+  animation-delay: 300ms;
+}
+#pic3 {
+  animation-delay: 600ms;
+}
+#pic4 {
+  animation-delay: 900ms;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(500px) perspective(400px) translateZ(-500px);
+  }
+  40% {
+    transform: perspective(400px) translateZ(-250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) perspective(400px) translateZ(0);
+  }
+}
+.service-link h2{
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to right, #757472 , #f3f2f4);
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  text-align: center;
+  color: #f1f1f1;
+  line-height:150px;
+  font-size: 1.4em;
+}
+.service-link a{
+  text-decoration: none;
+  margin: auto 0px;
+}
+.service-link h2:hover{
+  color: white;
+}
+.services-container{
+  margin-left: 5%;
+}
+.services-title{
+  color: grey;
+  padding-left: 25px
+}
+.thumbnails img{
+  display: inline-block;
+  vertical-align: top;
+  margin: 1%;
+  width:18%;
+  box-shadow: 9px 11px 24px -6px rgba(0,0,0,0.66);
+}
+.shadow{
+  box-shadow: 11px 13px 24px -6px rgba(0,0,0,0.66);
+}
+.service-desc{
+  width: 70%;
+  margin: 2% 0 0 15%;
+}
+.service-desc img{
+width:100%;
+}
+#imageDesc{
+  background-color: grey;
+  color: white;
+  padding: 2%;
+}
+#imageDesc span{
+  font-weight: bold;
+  font-style: italic;
+}
+.price{
+  text-align: right;
+  margin-right: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+.zoom-img:hover {
+  transition: all 200ms linear;
+  transform: scale(1.5); 
+  opacity: 1; 
+  z-index: 99;
+}
+.zoom-img { 
+  opacity: 1;
+  transform: scale(1.0); 
+  transition: all 500ms linear; 
+  position: relative;
+  width: 250px;
+  float: left;
+  z-index: 1;
+  margin: 10px;
+}
+/******END OF SERVICES PAGE*****/
+
+/* start of desktop styles */
+
+/* Extra small viewport or screen */
+@media only screen and (min-width : 480px) {
+  body{
+    font-size: 1.7em;
+  }
+  .service-content{
+    width: 90%;
+  }
+  .pic img{
+    width: 100%;
+    height: 180px;
+  }
+  .service-link h2{
+    height: 180px;
+    line-height:180px;
+  }
+  .service-desc{
+    width: 60%;
+  }
+  .gallery-container{
+    width: 80%;
+    margin-left: 5%
+  }
+  .carousel{
+  width: 70%;
+  margin-left: 15%;
+  /*height: 300px*/
+  }
+  .gilena-pic{
+    width: 40%;
+    margin: 5% 30%; 
+  }
+}
+
+/* Small viewport or screen */
+@media only screen and (min-width : 768px) {
+  .logo-div{
+    margin:  3% 0 0 20%;
+  }
+  .vagaro-container.vagaro-popup-widget img{
+    width: 10%;
+  }  
+  .about-container{
+    width: 70%; 
+    margin-top: 2%;
+    margin-left: 15%
+   } 
+  .brand-name{
+    width:60%;
+  }
+  .city{
+    margin-left: 10%;
+  }
+  .service-content{
+    width: 70%;
+  }
+  .pic img{
+    width: 100%;
+    height: 210px;
+  }
+  .service-link h2{
+    height: 210px;
+    line-height:210px;
+  }
+  .service-desc{
+    width: 80%;
+    margin: 2% ;
+  }
+  .services-container{
+    width: 80%;
+    margin-left: 15%;
+  }
+  .table{
+    padding: 0 15% ;
+    /*font-size: 1.5em;*/
+  }
+  .sub-title{
+    padding: 3% 15% 0;
+  }
+  .gilena-pic{
+    width: 40%;
+    margin: 5% 25%; 
+  }
+  .gallery-container{
+    margin-left: 10%;
+  }
+
+}
+
+/* Medium viewport or screen */
+@media only screen and (min-width : 992px) {
+  .logo-div{
+    margin:  3% 0 0 25%;
+  }
+   .brand-name{
+    width:50%;
+  }
+  .contact-info{
+    padding: 2%;
+  }
+  .city{
+    margin-left: 14%;
+  }
+  .about-container{
+    width: 60%; 
+    margin-top: 2%;
+    margin-left: 20%;
+   } 
+  .services-container{
+    margin-left: 12%;
+  }
+  h1{
+    font-size: 3.5em;
+  }
+  .service-content{
+    width: 90%;
+  }
+  .gallery-container{
+    width: 65%;
+    margin-left: 20%;
+  }
+  .carousel{
+    width:50%;
+    margin-left: 25%;
+    /*height: 300px*/
+  }
+  .gilena-pic{
+    width: 100%;
+    margin: 5% 0; 
+  }
+
+}
+/* Large viewport or screen */
+@media only screen and (min-width : 1200px) {
+  .logo-div{
+    margin:  3% 0 0 35%;
+  }
+ .brand-name{
+    width:30%;
+  }
+  .city{
+    margin-left: 9%;
+  }
+  .service-content{
+    width: 70%;
+  }
+  .pic img{
+    width: 100%;
+    height: 230px;
+  }
+  .service-link h2{
+    height: 230px;
+    line-height:230px;
+    font-size: 1.6em;
+  }
+  .gilena-pic{
+    width: 90%;
+    margin: 5% 0; 
+  }
+}
+@media only screen and (min-width : 1800px) {
+   .service-content{
+    width: 60%;
+  }
+}
